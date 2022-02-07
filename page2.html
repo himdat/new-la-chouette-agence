@@ -79,38 +79,42 @@
 		<div class="container bloc-lg">
 			<div class="row">
 				<div class="col-sm-6">
-					<form id="form_1" novalidate>
+					<form id="form_1" novalidate >
+						<div class="form-group" style="padding-bottom: 15px;">
+							<label>
+								Nom
+							</label>
+							<br>
+							<input style="width: 32%;" id="name" class="form-control" placeholder="Nom requis" required />
+						</div>
+						<div class="form-group" style="padding-bottom: 15px;">
+							<label>
+								Adresse email
+							</label>
+							<br>
+							<input style="width: 32%;" id="email" class="form-control" type="email" placeholder="Email requis" required />
+						</div>
+						<div class="form-group" style="padding-bottom: 15px;" >
+							<label>
+								Comment nous avez-vous connu ?
+							</label>
+							<br>
+							<input style="width: 32%;" class="form-control"   type="email" required id="input_504" />
+						</div>
 						<div class="form-group">
 							<label>
-							Nom
-							</label>
-							<input id="name" class="form-control" placeholder="Nom requis" required />
-						</div>
-						<div class="form-group">
-							<label for="email">
-							Adresse email
-							</label>
-							<input id="email" class="form-control" type="email" placeholder="Rentrer l'email" required />
-						</div>
-						<div class="form-group">
-							<label for="input_1">
-							Comment nous avez-vous connu ?
-							</label>
-							<input class="form-control" type="email" required id="input_1"/>
-						</div>
-						<div class="form-group">
-							<label for="Brief">
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+								Brief de votre projet<br> (Ajoutez autant de détails que nécessaire)<br>
+							</label><textarea id="message" class="form-control" 
+							rows="4" cols="39" required></textarea>
 						</div> 
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
+							Envoyer
 						</button>
 					</form>
-					</div>
+				</div>
 				<div class="col-sm-6">
 					<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+						contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 					</p>
 				</div>
 			</div>
