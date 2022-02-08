@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -7,6 +7,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.text-center {
+    text-align: center;
+}
 
 a,
 button {
@@ -363,6 +366,8 @@ a:hover {
     z-index: 2;
 }
 
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -678,7 +683,11 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
+}
+
+blockquote p{
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -737,7 +746,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .portfolio-thumb {
@@ -776,12 +785,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
-}
+    color:#fae3d6!important
+   }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
