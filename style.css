@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -7,9 +7,9 @@ body{
     -moz-osx-font-smoothing: grayscale;
 }
 
-.text-center {
+ .text-center {
     text-align: center;
-}
+} 
 
 a,
 button {
@@ -21,6 +21,7 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -409,6 +410,7 @@ a:hover {
     }
 }
 
+
 .nav > li > .dropdown a {
     background: none!important;
     display: block;
@@ -465,6 +467,8 @@ nav .caret {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
+
+
 
 button {
     outline: none!important;
@@ -655,9 +659,14 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
     font-weight: 400;
     color: #000000!important;
+}
+
+
+
+h2{
+    font-family: "helvetica";
 }
 
 .container {
@@ -862,13 +871,13 @@ input {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -887,8 +896,8 @@ input {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0;
+        padding-right: 0;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -898,8 +907,8 @@ input {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
